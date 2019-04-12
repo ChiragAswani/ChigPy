@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="chigpy",
-    version="0.0.41",
+    version="0.0.42",
     author="Chirag Aswani",
     author_email="chirag@aswani.net",
     description="A python package built by Chirag Aswani",
