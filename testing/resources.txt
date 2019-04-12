@@ -1,0 +1,15 @@
+Actions
+
+1. change the version number in setup.py
+2. make dist folder
+	python3 setup.py sdist bdist_wheel
+3. upload archives
+	python3 -m twine upload dist/*
+	python3 -m twine upload --skip-existing dist/*
+
+Python Virtual Environment
+1. sudo rm -r venv
+2. python3 -m virtualenv venv
+
+Links
+https://pypi.org/project/chigpy/
